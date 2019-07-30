@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myaccountmenu"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/myaccountmenu" />
+        <item
+            android:id="@+id/followingmenu"
+            android:icon="@drawable/ic_folloeing"
+            android:title="@string/followingmenu" />
+
+        <item android:title="@string/others">
+            <menu>
+                    <item
+                        android:id="@+id/removeadsmenu"
+                        android:icon="@drawable/ic_noads"
+                        android:title="@string/removeads"/>
+                <item
+                    android:id="@+id/ratemenu"
+                    android:icon="@drawable/ic_playstore"
+                    android:title="@string/rate" />
+            </menu>
+        </item>
+
+        <item android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/sharemenu"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/share"/>
+                <item
+                    android:id="@+id/developermenu"
+                    android:icon="@drawable/ic_developer"
+                    android:title="@string/developer" />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

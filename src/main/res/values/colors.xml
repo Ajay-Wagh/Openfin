@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dotinactive">#6AA6E0</color>
+    <color name="dotactive">#BFD1E2</color>
+    <color name="mainblue">#1385F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#c873f4</color>
+    <color name="bg_l">#FF5733</color>
+</resources>

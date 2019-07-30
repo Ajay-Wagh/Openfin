@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/welcome4id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainblue"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/normalpadding"
+        android:paddingEnd="@dimen/normalpadding"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/welcome4title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vladimir"
+            android:text="@string/welcome4title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/welcome1size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <RadioButton
+            android:id="@+id/accountcreateradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accountcreateradiotext"
+            android:textColor="@color/white"
+            android:textSize="@dimen/welcome4text1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/usernameview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/askusernameview"
+            android:textColor="@color/white"
+            android:textSize="@dimen/upboxtextsize" />
+
+        <EditText
+            android:id="@+id/usernameedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/usernameedittexthint"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/dotinactive"
+            android:textSize="@dimen/welcome1textsize"
+            tools:targetApi="O" />
+
+
+        <TextView
+            android:id="@+id/askacnameview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asknameview"
+            android:textColor="@color/white"
+            android:textSize="@dimen/upboxtextsize" />
+
+        <EditText
+            android:id="@+id/acnameedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/accountnameedittextviewhint"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/dotinactive"
+            android:textSize="@dimen/welcome1textsize"
+            tools:targetApi="O" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subscriberadio"
+            android:textColor="@color/white"
+            android:textSize="@dimen/welcome4text1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/accountcodetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/askaccountcode"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/upboxtextsize" />
+
+        <EditText
+            android:id="@+id/accountcodeedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/accountcodeedittexthint"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/white"
+            android:textColorHint="@color/dotinactive"
+            tools:targetApi="O" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/startbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/dotinactive"
+            android:fontFamily="@font/jurabook"
+            android:paddingStart="@dimen/startbuttonpadding"
+            android:paddingEnd="@dimen/startbuttonpadding"
+            android:text="@string/startbuttontext"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/welcome4text1" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

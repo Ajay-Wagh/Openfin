@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/mainblue</item>
+        <item name="colorPrimary">@color/mainblue</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.new" parent="TextAppearance.AppCompat.Widget.ActionBar.Title" >
+        <item name="android:fontFamily">@font/jurabook</item>
+    </style>
+
+</resources>

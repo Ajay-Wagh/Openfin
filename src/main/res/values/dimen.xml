@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dotsize">35sp</dimen>
+    <dimen name="welcomesize">70sp</dimen>
+    <dimen name="welcome1textsize">15sp</dimen>
+    <dimen name="welcome1size">60sp</dimen>
+    <dimen name="welcome3text1size">20sp</dimen>
+    <dimen name="welcome4text1">25sp</dimen>
+    <dimen name="startbuttonpadding">10dp</dimen>
+    <dimen name="upboxtextsize">12sp</dimen>
+    <dimen name="normalpadding">4dp</dimen>
+    <dimen name="flotpad">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
